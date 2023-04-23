@@ -1,0 +1,21 @@
+{
+  "name": "jack-herrington",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "factory-class-prod": "cross-env NODE_ENV=production ts-node factory-class-test.ts",
+    "factory-class-dev": "ts-node factory-class-test.ts",
+    "factory-func-prod": "cross-env NODE_ENV=production ts-node factory-func-test.ts",
+    "factory-func-dev": "ts-node factory-func-test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

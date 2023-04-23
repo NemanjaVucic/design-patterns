@@ -1,0 +1,19 @@
+{
+  "name": "jack-herrington",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "directory-scraper-class": "ts-node directory-scraper-class.ts",
+    "directory-scraper-func": "ts-node directory-scraper-func.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
